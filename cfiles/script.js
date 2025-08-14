@@ -16,7 +16,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 });
 
-// Year stamp (footer)
+// Year
 document.getElementById('year')?.append(new Date().getFullYear());
 
 // Theme toggle with localStorage
